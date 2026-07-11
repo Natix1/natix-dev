@@ -12,7 +12,7 @@ COPY --from=builder /app/node_modules ./node_modules
 COPY package.json ./
 
 ENV NODE_ENV=production
-ENV PORT=3000
-EXPOSE 3000
+ENV PORT=8080
+EXPOSE 8080
 
 CMD ["bun", "run", "build/index.js"]
