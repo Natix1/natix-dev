@@ -42,6 +42,7 @@
 		"@threlte/theatre": "^3.2.2",
 		"@types/three": "^0.185.1",
 		"@yushijinhun/three-minifier-rollup": "^0.4.0",
+		"svelte-adapter-bun": "^1.0.1",
 		"three": "^0.185.1"
 	}
 }

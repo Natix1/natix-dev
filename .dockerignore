@@ -1,0 +1,16 @@
+node_modules/
+bun.lockb
+
+dist/
+build/
+.svelte-kit/
+
+.env
+.env.*
+!.env.example
+.git/
+.github/
+README.md
+
+.DS_Store
+thumbs.db

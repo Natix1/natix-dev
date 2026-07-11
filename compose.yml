@@ -1,0 +1,15 @@
+services:
+  natix-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: natix-dev
+    restart: unless-stopped
+    networks:
+      - proxy
+    environment:
+      - PORT=3000
+
+networks:
+  proxy:
+    external: true
